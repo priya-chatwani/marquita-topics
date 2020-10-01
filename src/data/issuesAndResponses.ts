@@ -19,6 +19,10 @@ export function getIssuesAndResponses(): Topic[] {
         responses: [`If charter schools are to receive federal funding, Marquita believes they must uphold the same standards and regulations as public institutions. The federal charter school program, which seeks to expand these types of schools, should end. Finally, Marquita believes for profit charter schools should be banned.`],
     },
     {
+        name: "Conservation and Environmental Justice",
+        responses: [`Ms. Bradshaw is an avid fighter for environmental justice. Beyond issues caused by industry and poor land management, Ms. Bradshaw supports the conservation of public lands for outdoor recreation. Right now, the fight is to protect those lands which are under threat of development. Once elected however, Ms. Bradshaw will work to make sure the parks service budget is protected and increased.`],
+    },
+    {
         name: "Covid-19 and School",
         responses: [`COVID-19 prevents many children from learning in the classroom. Marquita believes the best way to get children back to school is by wearing masks and practicing social distancing and hygiene guidelines. In the meantime, government funds should be used to ensure children have equitable access to online learning and parents juggling childcare don’t suffer financially.`],
     },
