@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 200px;
+}
+
+.App-container {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.App-header {
+  text-align: center;
+  min-height: 10vh;
+  font-size: calc(20px + 2vmin);
+  font-weight: bold;
+  color: #b40c0b;
+}
+
+.App-text {
+  text-align: center;
+}
+
+.App-loading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-link {
+  color: #24ace4;
+}
