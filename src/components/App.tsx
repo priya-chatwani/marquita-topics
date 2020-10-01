@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     setTopics(getIssuesAndResponses());
-  }, [getIssuesAndResponses]);
+  }, []);
 
 
   return (
