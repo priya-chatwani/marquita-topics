@@ -3,10 +3,6 @@ import { Topic } from "../types/Topic";
 export function getIssuesAndResponses(): Topic[] {
     return [ 
     {
-        name: "Abortion",
-        responses: [`Marquita believes in comprehensive reproductive care. Comprehensive reproductive care includes complete family planning services, addressing reproductive system abnormalities, postpartum support for families, and the freedom to choose safe abortion care services. It is a deeply personal decision between that individual, their family, and their God. The Federal Government has no place in such a decision. Furthermore, Marquita believes that every child born in this state has a right to a good life, a clean environment, adequate health care and a high quality education.`],
-    },
-    {
         name: "Affirmative Action",
         responses: [`Affirmative action was put in place to begin the process of reparations for centuries of economic disenfranchisement, apartheid, free labor and denial of education and choice from Africans of the American Chatel enslavement system. Marquita believes speaking truth to power includes supporting affirmative action and advocating for true reparations that acknowledge how the wealth of America continues to be built.`],
     },
@@ -57,6 +53,10 @@ export function getIssuesAndResponses(): Topic[] {
         name: "Nuclear Power",
         responses: [`Nuclear power is problematic because of its impact on nuclear waste and water. Marquita will not support the building of new nuclear power plants at the expense of local populations. As you may know, she is passionate about a Green New Deal and investing in renewable energy.`,
         `Marquita believes in active efforts to reduce the number of nuclear weapons and in a “no first use” policy.`],
+    },
+    {
+        name: "Pro Choice/Abortion",
+        responses: [`Marquita believes in comprehensive reproductive care. Comprehensive reproductive care includes complete family planning services, addressing reproductive system abnormalities, postpartum support for families, and the freedom to choose safe abortion care services. It is a deeply personal decision between that individual, their family, and their God. The Federal Government has no place in such a decision. Furthermore, Marquita believes that every child born in this state has a right to a good life, a clean environment, adequate health care and a high quality education.`],
     },
     {
         name: "Reparations",
