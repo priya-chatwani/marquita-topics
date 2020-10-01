@@ -1,13 +1,22 @@
 import { Topic } from "../types/Topic";
 
 export function getIssuesAndResponses(): Topic[] {
-    return [ {
+    return [ 
+    {
+        name: "Abortion",
+        responses: [`Marquita believes in comprehensive reproductive care. Comprehensive reproductive care includes complete family planning services, addressing reproductive system abnormalities, postpartum support for families, and the freedom to choose safe abortion care services. It is a deeply personal decision between that individual, their family, and their God. The Federal Government has no place in such a decision. Furthermore, Marquita believes that every child born in this state has a right to a good life, a clean environment, adequate health care and a high quality education.`],
+    },
+    {
         name: "Affirmative Action",
         responses: [`Affirmative action was put in place to begin the process of reparations for centuries of economic disenfranchisement, apartheid, free labor and denial of education and choice from Africans of the American Chatel enslavement system. Marquita believes speaking truth to power includes supporting affirmative action and advocating for true reparations that acknowledge how the wealth of America continues to be built.`],
     },
     {
         name: "Affordable Housing",
         responses: [`Everyone deserves access to affordable housing. Marquita supports the American Housing and Economic Mobility Act, which provides a vital update to the Affordable Housing Act.`],
+    },
+    {
+        name: "Black Liberation",
+        responses: [`Every policy that Marquita has put forward will address the inequities that Black people are experiencing to eliminate racism from the fabric of America. In particular, her policies work to reduce poverty and economic disenfranchisement, enact punitive measures that discourage discrimination, and move to a transformative and restorative justice system`],
     },
     {
         name: "Charter Schools",
@@ -18,6 +27,10 @@ export function getIssuesAndResponses(): Topic[] {
         responses: [`COVID-19 prevents many children from learning in the classroom. Marquita believes the best way to get children back to school is by wearing masks and practicing social distancing and hygiene guidelines. In the meantime, government funds should be used to ensure children have equitable access to online learning and parents juggling childcare don’t suffer financially.`],
     },
     {
+        name: "Health Care (and Step Therapy)",
+        responses: [`Patients shouldn't be forced to endure treatments that they and their doctor know to be ineffective, Marquita supports legislation that will make sure patients receive the most effective treatment without going into medical debt.`],
+    },
+    {
         name: "Internal Polling",
         responses: [`Marquita believes internal polls are inherently biased and do not reach marginalized communities.`],
     },
@@ -25,6 +38,10 @@ export function getIssuesAndResponses(): Topic[] {
         name: "LGBTQ+",
         responses: [`Marquita is for equality. We have federal legislation that prohibits discrimination based on sex, gender, or sexual preference, or religion.`,
         `Marquita supports human rights, civil rights, lgbtqia+ rights, and marriage equality. She will not support, endorse, or confirm anyone who attempts to roll back the clock on anyone's rights.`],
+    },
+    {
+        name: "Marijuana Legalization",
+        responses: [`Marquita supports the full legalization of recreational marijuana. We need Tennessee to be a leader in this industry as it will not only help our economy, but also begin to give Black and Brown Tennesseans opportunities in entrepreneurship and provide restorative justice to those who have been impacted by our outdated & predatory drug laws.`],
     },
     {
         name: "Middle East ",
@@ -42,21 +59,17 @@ export function getIssuesAndResponses(): Topic[] {
         `Marquita believes in active efforts to reduce the number of nuclear weapons and in a “no first use” policy.`],
     },
     {
-        name: "Abortion",
-        responses: [`Marquita believes in comprehensive reproductive care. Comprehensive reproductive care includes complete family planning services, addressing reproductive system abnormalities, postpartum support for families, and the freedom to choose safe abortion care services. It is a deeply personal decision between that individual, their family, and their God. The Federal Government has no place in such a decision. Furthermore, Marquita believes that every child born in this state has a right to a good life, a clean environment, adequate health care and a high quality education.`],
-    },
-    {
         name: "Reparations",
         responses: [`Marquita supports reparations and the Commission to Study and Develop Reparation Proposals for African-Americans Act (H.R.40). It would be irresponsible to make a decision on such an important issue without first investigating the depth and extent to which it affects the African-American community.`,
         `Affirmimative action was put in place to begin the reparation process for centuries of economic disenfranchisement, apartheid, free labor, and denial of education and self agency from Africans of the American Chatel enslavement system. Speaking truth to power includes supporting affirmative action and true reparations that acknowledges how the wealth of America continues to be built.`],
     },
     {
-        name: "Black Liberation",
-        responses: [`Every policy that Marquita has put forward will address the inequities that Black people are experiencing to eliminate racism from the fabric of America. In particular, her policies work to reduce poverty and economic disenfranchisement, enact punitive measures that discourage discrimination, and move to a transformative and restorative justice system`],
-    },
-    {
         name: "Term Limit",
         responses: [`Marquita believes voters should have the right to choose when their representatives leave office. Donald Trump threatening to negotiate a third term if he wins is unacceptable.`],
+    },
+    {
+        name: "Trump's Tax Returns",
+        responses: [`Marquita believes we are faced with only two possible truths about our sitting president: Either he has defrauded the U.S. government to avoid paying tens of millions of dollars in taxes, or he has defrauded his followers with an elaborate impersonation of a successful businessman. Either scenario makes him unfit to lead this great nation.`],
     },
     {
         name: "Unemployment Benefits",
