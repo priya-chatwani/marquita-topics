@@ -3,6 +3,10 @@ import { Topic } from "../types/Topic";
 export function getIssuesAndResponses(): Topic[] {
     return [ 
     {
+        name: "Abortion",
+        responses: [`Marquita believes in comprehensive reproductive care. Comprehensive reproductive care includes complete family planning services, addressing reproductive system abnormalities, postpartum support for families, and the freedom to choose safe abortion care services. It is a deeply personal decision between that individual, their family, and their God. The Federal Government has no place in such a decision. Furthermore, Marquita believes that every child born in this state has a right to a good life, a clean environment, adequate health care and a high quality education.`],
+    },
+    {
         name: "Affirmative Action",
         responses: [`Affirmative action was put in place to begin the process of reparations for centuries of economic disenfranchisement, apartheid, free labor and denial of education and choice from Africans of the American Chatel enslavement system. Marquita believes speaking truth to power includes supporting affirmative action and advocating for true reparations that acknowledge how the wealth of America continues to be built.`],
     },
@@ -44,6 +48,10 @@ export function getIssuesAndResponses(): Topic[] {
         responses: [`Marquita supports the full legalization of recreational marijuana. We need Tennessee to be a leader in this industry as it will not only help our economy, but also begin to give Black and Brown Tennesseans opportunities in entrepreneurship and provide restorative justice to those who have been impacted by our outdated & predatory drug laws.`],
     },
     {
+        name: "Medicare for All (funding)",
+        responses: [`How to fund Medicare for All is a very valid question and no one wants to see their taxes go up! Funding will go through negotiations so we do not know the exact method yet—but there are ideas that don't raise taxes on ordinary people. For example, we could reverse the tax breaks given to the super-wealthy in 2017 (which never trickled down into higher wages for employees) and ensure that hugely profitable companies like Amazon pay more than $0 in federal income tax. The federal government has the power to significantly lower the cost of drugs too, which could reduce the total cost of Medicare for All. In general, there are ways to raise revenue from corporations and the super-wealthy to fund Medicare for All, while at the same time cutting out the financial loopholes of the private insurance industry—which currently receives significant tax breaks and subsidies. Employer-based health insurance is already costing us a lot of money without covering all Americans.`],
+    },
+    {
         name: "Middle East ",
         responses: [`For too long, U.S. policies have further destabilized the Middle East. Withdrawal from the Iran Deal, transfer of military weapons, and increase in military spending have all contributed to this. Marquita will work to foster an environment of understanding, not of fear and oppression.`,
         `Marquita will fight anti-Semitism and hate in all forms.`, 
@@ -57,10 +65,6 @@ export function getIssuesAndResponses(): Topic[] {
         name: "Nuclear Power",
         responses: [`Nuclear power is problematic because of its impact on nuclear waste and water. Marquita will not support the building of new nuclear power plants at the expense of local populations. As you may know, she is passionate about a Green New Deal and investing in renewable energy.`,
         `Marquita believes in active efforts to reduce the number of nuclear weapons and in a “no first use” policy.`],
-    },
-    {
-        name: "Pro Choice/Abortion",
-        responses: [`Marquita believes in comprehensive reproductive care. Comprehensive reproductive care includes complete family planning services, addressing reproductive system abnormalities, postpartum support for families, and the freedom to choose safe abortion care services. It is a deeply personal decision between that individual, their family, and their God. The Federal Government has no place in such a decision. Furthermore, Marquita believes that every child born in this state has a right to a good life, a clean environment, adequate health care and a high quality education.`],
     },
     {
         name: "Reparations",
