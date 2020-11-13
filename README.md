@@ -1,3 +1,8 @@
+## App Description
+
+React App that clearly conveys the opinions of Marquita Bradshaw, candidate for US Senate (TN), regarding pertinent and relevant topics.
+Useful for door-to-door canvassers on-the-go.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
